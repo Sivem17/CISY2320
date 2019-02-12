@@ -1,4 +1,53 @@
-﻿Module Module1
+Module Module1
+
+    Sub Main()
+        Dim marks As Integer
+        Dim grade As String
+        marks = 88
+        Console.WriteLine(marks)
+        If (marks >= 90) And (marks <= 100) Then
+            grade = "A+"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 85) And (marks <= 89) Then
+            grade = "A"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 80) And (marks <= 84) Then
+            grade = "A-"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 77) And (marks <= 79) Then
+            grade = "B+"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 73) And (marks <= 76) Then
+            grade = "B"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 70) And (marks <= 72) Then
+            grade = "B-"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 67) And (marks <= 69) Then
+            grade = "C+"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 63) And (marks <= 66) Then
+            grade = "C"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 60) And (marks <= 62) Then
+            grade = "C-"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 50) And (marks <= 59) Then
+            grade = "D"
+            Console.WriteLine(grade)
+        ElseIf (marks >= 0) And (marks <= 49) Then
+            grade = "F"
+            Console.WriteLine(grade)
+        End If
+
+
+
+
+    End Sub
+
+End Module
+
+Module Module1
 
     Sub Main()
 
